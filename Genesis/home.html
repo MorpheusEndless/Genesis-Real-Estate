@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Genesis Real Estate</title>
+  <link rel="stylesheet" href="./css/home.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- Home Section -->
+  <section id="home-one">
+    <div id="loading">
+      <div class="loading-text">
+        <span>L</span>
+        <span>O</span>
+        <span>A</span>
+        <span>D</span>
+        <span>I</span>
+        <span>N</span>
+        <span>G</span>
+        <span>.</span>
+        <span>.</span>
+        <span>.</span>
+      </div>
+    </div> 
+    <div id="home-content" class="hidden">
+      <!-- Navigation Bar -->
+      <nav>
+        <div class="logo">
+          <a href="#home">
+            <img src="./asset/images/logo.png" alt="Logo">
+          </a>
+        </div>
+        <button class="ham-menu" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#take-tour">Take tour</a></li>
+          <li><a href="#pages">Pages</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li class="contact-button-mobile">
+            <a href="#contact" class="btn">Contact Us</a>
+          </li>
+        </ul>
+        <div class="contact-button">
+          <a href="#contact" class="btn">Contact Us</a>
+        </div>
+      </nav>
+      <!-- Image Slider -->
+      <div class="slider">
+        <div class="overlay"></div>
+        <div class="slide">
+          <img src="./asset/images/pexels-imphoto-32870.jpg" class="active" alt="Image 1">
+          <div class="caption">
+            <object type="image/svg+xml" data="./asset/images/Logo.Svg.svg" class="caption-logo"></object>
+            <h5>Your Dream Home</h5>
+            <h1>It's not just a lake it's a lifestyle</h1>
+            <h4>536,Lake Neworleans //$ 255,000</h4>
+          </div>
+        </div>
+        <div class="slide">
+          <img src="./asset/images/2.jpg" alt="Image 2">
+        </div>
+        <div class="slide">
+          <img src="./asset/images/3.jpg" alt="Image 3">
+        </div>
+        <div class="slide">
+          <img src="./asset/images/4.jpg" alt="Image 4">
+        </div>
+        <div class="slide">
+          <img src="./asset/images/4e95686a25d9d5cde96db3968ee0dbac.jpg" alt="Image 5">
+        </div>
+        <div class="slide">
+          <img src="./asset/images/5.jpg" alt="Image 6">
+        </div>
+        <div class="slide">
+          <img src="./asset/images/6.jpg" alt="Image 7">
+        </div>
+        <div class="slide">
+          <img src="./asset/images/8.jpg" alt="Image 8">
+        </div>
+        <div class="slide">
+          <img src="./asset/images/8ee39b47e6067f72045c6fa55cc4ba34.jpg" alt="Image 9">
+        </div>
+        <div class="slide">
+          <img src="./asset/images/pexels-imphoto-32870.jpg" alt="Image 10">
+        </div>
+        <object type="image/svg+xml" data="./asset/images/Vector 1.svg" class="item"></object>
+      </div>
+      <!-- Slider Buttons -->
+      <div class="buttons">
+        <div class="buttons-inner">
+          <button onclick="showImage(0)">1</button>
+          <button onclick="showImage(1)">2</button>
+          <button onclick="showImage(2)">3</button>
+          <button onclick="showImage(3)">4</button>
+          <button onclick="showImage(4)">5</button>
+          <button onclick="showImage(5)">6</button>
+          <button onclick="showImage(6)">7</button>
+          <button onclick="showImage(7)">8</button>
+          <button onclick="showImage(8)">9</button>
+          <button onclick="showImage(9)">10</button>
+        </div>
+      </div>
+      <!-- Info Section -->
+      <div class="info">
+        <div id="left-info">Left Info</div>
+        <div id="right-info">Right Info</div>
+      </div>
+    </div>  
+  </section>
+ <!-- About Section -->
+ <section id="about">
+  <div class="about-container">
+    <h1 class="section-title">Exclusive Property Insights</h1>
+    <div class="main-stat">
+      <div class="big-number">0</div> <!-- Changed to start from 0 -->
+      <h2>Satisfied Customers</h2>
+    </div>
+
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">0</div> <!-- Changed to start from 0 -->
+        <div class="stat-label">Award Winning</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">0</div> <!-- Changed to start from 0 -->
+        <div class="stat-label">Years of Experience</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">0</div> <!-- Changed to start from 0 -->
+        <div class="stat-label">Property Collections</div>
+      </div>
+    </div>
+
+    <div class="description">
+      <p>Genesis Real Estate offers premium homes, commercial spaces, and investment opportunities in prime locations. We specialize in luxury, affordability, and sustainable designs, ensuring you find the perfect property.</p>
+    </div>
+
+    <div class="cta-text">
+      <p>Looking for a seamless real estate experience? Our expert advisors are here to guide you in finding the perfect property that matches your needs and lifestyle.</p>
+    </div>
+  </div>
+</section>
+<!-- Pages Section -->
+<section id="pages">
+  <div class="logo-page">
+    <img src="./asset/images/logo info.png" alt="">
+  </div>
+
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <!-- Carousel Slides -->
+      <div class="carousel-slide active">
+        <div class="image-container">
+          <img src="./asset/images/7.jpeg" alt="Property">
+          <div class="image-overlay"></div>
+        </div>
+        <h2>01 THE BLUE SKY HOME</h2>
+        <img src="./asset/images/Group.png" alt="View" class="hover-image">
+        <span class="vertical-text">DISCOVER MORE</span>
+      </div>
+      <div class="carousel-slide">
+        <div class="image-container">
+          <img src="./asset/images/12.jpeg" alt="Property">
+          <div class="image-overlay"></div>
+        </div>
+        <h2>02 THE BLUE SKY HOME</h2>
+        <img src="./asset/images/Group.png" alt="View" class="hover-image">
+        <span class="vertical-text">DISCOVER MORE</span>
+      </div>
+      <div class="carousel-slide">
+        <div class="image-container">
+          <img src="./asset/images/4.jpg" alt="Property">
+          <div class="image-overlay"></div>
+        </div>
+        <h2>03 THE BLUE SKY HOME</h2>
+        <img src="./asset/images/Group.png" alt="View" class="hover-image">
+        <span class="vertical-text">DISCOVER MORE</span>
+      </div>
+      <div class="carousel-slide">
+        <div class="image-container">
+          <img src="./asset/images/1.jpg" alt="Property">
+          <div class="image-overlay"></div>
+        </div>
+        <h2>04 THE BLUE SKY HOME</h2>
+        <img src="./asset/images/Group.png" alt="View" class="hover-image">
+        <span class="vertical-text">DISCOVER MORE</span>
+      </div>
+      <div class="carousel-slide">
+        <div class="image-container">
+          <img src="./asset/images/10.jpg" alt="Property">
+          <div class="image-overlay"></div>
+        </div>
+        <h2>05 THE BLUE SKY HOME</h2>
+        <img src="./asset/images/Group.png" alt="View" class="hover-image">
+        <span class="vertical-text">DISCOVER MORE</span>
+      </div>
+      <div class="carousel-slide">
+        <div class="image-container">
+          <img src="./asset/images/11.jpg" alt="Property">
+          <div class="image-overlay"></div>
+        </div>
+        <h2>06 THE BLUE SKY HOME</h2>
+        <img src="./asset/images/Group.png" alt="View" class="hover-image">
+        <span class="vertical-text">DISCOVER MORE</span>
+      </div>
+    </div>
+
+    <!-- Carousel Controls -->
+    <button class="carousel-prev"></button>
+    <button class="carousel-next"></button>
+    
+    <!-- Pagination Dots -->
+    <div class="carousel-dots">
+      <span class="active"></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</section>
+<!-- Take-tour Section -->
+<section id="take-tour">
+
+  <div class="logo-page-1">
+    <img src="./asset/images/logo infor-2.png" alt="Genesis Logo">
+  </div>
+
+  <!-- First Carousel -->
+  <div class="tour-carousel-container">
+    <div class="tour-carousel-track">
+      <!-- Property 1 -->
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/14.jpg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Oakwood Manor Estates</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>1234 Maplewood St, San Diego, NC 5612</p>
+          <div class="property-meta">
+            <span class="type">Apartment</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,585 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 2 -->
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/10.jpg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Willowbrook Grey Estate</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>7348 Westerling Bres, Houston, TX 70383</p>
+          <div class="property-meta">
+            <span class="type">Apartment</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,585 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 3 -->
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/3.jpg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Timberland Interior Legacy</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>6277 Richmond Dr., Jersey, PA 55001</p>
+          <div class="property-meta">
+            <span class="type">Apartment</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 1,500 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 4 -->
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/6.jpg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Cedar Ridge Residences</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>800 Lake Hudson, NY 146001</p>
+          <div class="property-meta">
+            <span class="type">Waterfront House</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,200 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Property 5 -->
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/15.jpg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Springvale Estates</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>92 Brooklyn Ave, NY 76502</p>
+          <div class="property-meta">
+            <span class="type">Bungalow</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,700 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-prev"></button>
+    <button class="carousel-next"></button>
+  </div>
+
+  <!-- Second Carousel -->
+  <div class="tour-carousel-container">
+    <div class="tour-carousel-track">
+
+      <div class="property-card">
+       <div class="card-image" style="background-image: url(./asset/images/4.jpg)">
+        <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+       </div>
+        <div class="card-content">
+          <h3>Cedar Ridge Residences</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>📍 809 Lake Hudson, NY 146001</p>
+          <div class="property-meta">
+            <span class="type">🏠 Waterfront House</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,700 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>🛏 4 Beds </span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/7.jpeg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Springvale Estates</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>92 Brooklyn Ave, NY 76502</p>
+          <div class="property-meta">
+            <span class="type">Bungalow</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,700 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/9.jpg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Springvale Estates</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>92 Brooklyn Ave, NY 76502</p>
+          <div class="property-meta">
+            <span class="type">Bungalow</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,700 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/pexels-imphoto-32870.jpg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Springvale Estates</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>92 Brooklyn Ave, NY 76502</p>
+          <div class="property-meta">
+            <span class="type">Bungalow</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,700 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="property-card">
+        <div class="card-image" style="background-image: url(./asset/images/10.jpg)">
+          <div class="card-image-hover" style="background-image: url(./asset/images/play.png)"></div>
+        </div>
+        <div class="card-content">
+          <h3>Springvale Estates</h3>
+          <p class="address"><i class="fas fa-map-marker-alt"></i>92 Brooklyn Ave, NY 76502</p>
+          <div class="property-meta">
+            <span class="type">Bungalow</span>
+            <span><i class="fas fa-ruler-combined"></i>&lt; 2,700 sq.ft.</span>
+          </div>
+          <div class="property-features">
+            <span><i class="fas fa-bed"></i>3 Beds</span>
+            <span><i class="fas fa-bath"></i>3 Baths</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-prev"></button>
+    <button class="carousel-next"></button>
+  </div>
+</section>
+  <!-- Blog Section -->
+<section id="blog"> 
+  <div class="logo-page-2">
+    <img src="./asset/images/Updates.png" alt="Genesis Logo">
+  </div>
+<br>
+<br>
+  <div class="blog-container">
+    <div class="blog-item-1">
+      <h1>Where affordability meets<br> sustainability</h1>
+      <h5>We're a real-estate development company that aims to reduce environmental impacts 
+        by constructing sustainable and cost-effective properties.
+      </h5>
+      <h6>Aluminum <br>Germany, Berlin </h6>
+
+    </div>
+    <div class="blog-item-2">
+      <h6>/titanium </h6>
+      <h5>Poland, Warsaw</h5>
+    </div>
+    <div class="blog-item-3">
+      <h6>/argentium</h6>
+      <h5>Germany, Munich</h5>
+    </div>
+    <div class="blog-item-4">
+      <div class="blog-image-1"></div>
+      <h1>Open the world of sustainable <br>properties  for everyone today.</h1>
+      <h5>We're a real-estate development company  <br>that aims to reduce environmental impacts <br>
+        by constructing sustainable and cost-effective  <br> properties.
+      </h5>
+    </div>
+    <div class="blog-item-5">
+      <h6>/our Developments</h6>
+      <h1>Interview with CEO of Chromium <br>Development</h1>
+      <h5>Interview for Property Week Magazine with our CEO  -<br> Adam Grade on how sustainable materials are important and valuable nowadays.</h5>
+    </div>
+    <div class="blog-item-6">
+      <h6>/our Developments</h6>
+      <h1>Nice to meet you again: <br> we Rebranded</h1>
+      <h5>We're happy to announce that Chromium Development <br>had a long path of rebranding, and the final result is already here. <br> We just want to share the amazing result with you.</h5>
+    </div> 
+     <div class="blog-item-7">
+     <h6>/our Developments</h6>
+      <h1>Titanium Property Finally <br>Goes Live!</h1> 
+      <h5>
+        We've already announced that Titanium is about to open its doors for homeowners 
+        and residents. And today we want to show you this project in the case form.
+      </h5>
+    </div>
+    </div>
+   
+    </div>
+</section>
+<!-- Contact Section -->
+<section id="contact">
+  <div class="contact-container">
+    <div class="contact-header">
+      <h2>Get in Touch</h2>
+      <p>To make requests for further information, contact us via our social channels.<br>
+      We just need a couple of hours!</p>
+    </div>
+
+    <form class="contact-form">
+      <div class="form-row">
+        <div class="input-group">
+          <label>Name</label>
+          <input type="text" required>
+        </div>
+        <div class="input-group">
+          <label>Date (mm/dd/yyyy)</label>
+          <input type="date" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" required>
+        </div>
+        <div class="input-group">
+          <label>Phone Number</label>
+          <input type="tel" required>
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label>Message</label>
+        <textarea rows="5" required></textarea>
+      </div>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social-channels">
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+</section>
+<!--Map Section -->
+<section id="location-map">
+  <div class="static-map-container"></div>
+</section>
+<!-- Footer -->
+<footer class="genesis-footer">
+  <div class="footer-content">
+    <div class="footer-main">
+      <div class="logo-page-22">
+        <img src="./asset/images/Logo.png" alt="">
+      </div>
+      <br>
+      <p class="footer-description">At Genesis Real Estate, we connect buyers with their dream homes and investment properties. Our team ensures top-notch service and expert advice to help you make the best real estate decisions.</p>
+    </div>
+
+    <div class="footer-columns">
+      <div class="footer-col">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Property Listings</a></li>
+          <li><a href="#">Mortgage Calculator</a></li>
+          <li><a href="#">Market Insights</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Our Agents</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <div class="contact-info">
+          <p>🟡 123 Main Street, Harare</p>
+          <p>📞 +1 (310) 555-7890</p>
+          <p>📖 info@genesisrealty.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>Copyright © 2024 Genesis Realty | All Rights Reserved</p>
+  </div>
+</footer>
+  
+  <!-- GSAP Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
